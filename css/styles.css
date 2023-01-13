@@ -2,6 +2,7 @@
 --primary-font:'Roboto', sans-serif;
 --secondary-font: 'Raleway', sans-serif;
 --accent-color: #404BBF;
+--button-color: #4D5AE5;
 --primary-text-color: #2E2F42;
 --secondary-text-color: #434455;
 }
@@ -16,10 +17,66 @@
     text-decoration: none;
 }
 
+/*==========INDEX.HTML=========*/
+/*=====ORDER BUTTON=====*/
+.order-btn {
+    
+    font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1,5;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        background: var(--button-color);
+        color: #FFFFFF;
+}
+
+
+.order-btn:hover,
+.order-btn:focus {
+    background: var(--accent-color);
+        color: #FFFFFF;
+        cursor: pointer;   
+}
+
+.hero-heading {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1,07;
+        text-align: center;
+        letter-spacing: 0.02em;
+}
+
+.features-list {
+    font-family: 'Roboto',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1,2;
+        letter-spacing: 0.02em;
+        color: var(--primary-text-color);
+}
+
+.features-description {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,5;
+        letter-spacing: 0.02em;
+        color: var(--secondary-text-color);
+
+}
+
+
 /*=====BODY=====*/
 .body { 
-  font-family: 'Roboto','Raleway', sans-serif ;
-    color: #2E2F42;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    letter-spacing: 0,02em;
+    background-color: #FFFFFF;
+    color: var(--primary-text-color)
 }
 /*=====HEADER=====*/
 
@@ -33,7 +90,7 @@
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2E2F42;
+        color: var(--primary-text-color);
 }
 
 .logo-web {
@@ -46,7 +103,7 @@
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--button-color);
 }
 
 .menu-link {
@@ -76,7 +133,7 @@
     font-size: 16px;
     line-height: 1,5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--secondary-text-color);
 
 }
 .tel-link:hover,
@@ -98,7 +155,7 @@
         text-align: center;
         letter-spacing: 0.04em;
         cursor: pointer;
-       color: #4D5AE5;
+       color: var(--button-color);
     background: #F4F4FD;
 }
 .menu-btn:hover,

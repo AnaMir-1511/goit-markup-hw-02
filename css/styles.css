@@ -18,6 +18,7 @@
 }
 
 /*==========INDEX.HTML=========*/
+
 /*=====ORDER BUTTON=====*/
 .order-btn {
     
@@ -41,7 +42,7 @@
 }
 
 .hero-heading {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primary-font);
         font-weight: 700;
         font-size: 56px;
         line-height: 1,07;
@@ -49,6 +50,16 @@
         letter-spacing: 0.02em;
 }
 
+.secondary-heading {
+        font-family: var(--primary-font);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1,11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--primary-text-color);
+}
 .features-list {
     font-family: 'Roboto',sans-serif;
         font-style: normal;

@@ -7,6 +7,10 @@
     --logo-color-light:#F4F4FD;
     --footer-text-color: #E7E9FC;
     --white-color: #FFFFFF;
+    --section-background-color: #F4F4FD;
+    --hero-background-color: #2E2F42;
+    --portfolio-background-color: #E5E5E5;
+
 
 
     --primary-font: 'Roboto', sans-serif;
@@ -107,12 +111,15 @@
 
 
 /*===HERO SECTION===*/
-
+.hero {
+    background-color: var(--hero-background-color);
+}
 .hero-heading {
     font-weight: 700;
     font-size: 56px;
     line-height: 1,07;
     text-align: center;
+    color: var(--white-color);
         
 }
 
@@ -175,6 +182,9 @@ h6 {
         color: var(--secondary-color);
     }
 
+    .our-team {
+        background-color: var(--section-background-color);
+    }
 
 /*===PORTFOLIO NAVIGATION BUTTONS SECTION==*/
 
@@ -201,7 +211,8 @@ h6 {
 
 /*===PORTFOLIO NAVIGATION BUTTONS and PORTFOLIO SECTION HEADINGS==*/
 
-.portfolio-nav-heading, .portfolio-heading {
+
+.portfolio-nav-heading {
     font-weight: 700;
     font-size: 36px;
     line-height: 1, 11;
@@ -228,6 +239,10 @@ h6 {
 
 
 /*===FOOTER===*/
+
+.page-footer {
+    background: var(--primary-color);
+}
 .footer .logo-link {
     font-family: var(--secondary-font);
     font-weight: 800;
@@ -237,7 +252,7 @@ h6 {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--button-color);   
+    color: var(--button-color);  
 }
 
 .footer .logo-studio {

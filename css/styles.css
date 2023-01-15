@@ -139,6 +139,7 @@
 .btn-main:hover,
 .btn-main:focus {
     background-color: var(--accent-color);
+    color: var(--white-color);
 }
 
 /*===HERO SECTION===*/
